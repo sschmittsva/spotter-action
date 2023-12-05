@@ -1,5 +1,9 @@
 #!/bin/sh
 
+echo FOOOO
+pwd
+echo BARRR
+
 # set CLI arguments
 endpoint="$1"
 api_token="$2"
