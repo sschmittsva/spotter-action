@@ -21,7 +21,7 @@ custom_policies_path="${17}"
 custom_policies_clear="${18}"
 
 # build global Spotter CLI command
-global_spotter_command="spotter --no-color"
+global_spotter_command="spotter --no-color --junit-xml report.xml"
 if [ -n "$endpoint" ]; then
   global_spotter_command="${global_spotter_command} --endpoint ${endpoint}"
 fi
