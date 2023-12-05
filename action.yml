@@ -91,3 +91,4 @@ runs:
     - ${{ inputs.enforce_checks }}
     - ${{ inputs.custom_policies_path }}
     - ${{ inputs.custom_policies_clear }}
+    - --junit-xml report.xml
